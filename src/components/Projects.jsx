@@ -1,64 +1,72 @@
 import { Card } from "../components/ui/Cards"
 import { Button } from "../components/ui/Buttons"
 import { ExternalLink, Github } from "lucide-react"
+import ecommercePlatform from "../assets/images/ecommerce-platform.jpg";
+import taskManagementDashboard from "../assets/images/task-management-dashboard.png";
+// import weatherDashboard from "../assets/images/weather-dashboard-app.png";
+import cmsAdminInterface from "../assets/images/cms-admin-interface.png";
+// import analyticsDashboard from "../assets/images/analytics-dashboard-charts.png";
+import aiChatInterface from "../assets/images/ai-chat-interface.png";
+
 
 export function Projects() {
-  const projects = [
-    {
-      title: "E-Commerce Platform",
-      description:
-        "A full-stack e-commerce application with product management, shopping cart, and secure checkout. Built with Next.js, Stripe, and PostgreSQL.",
-      image: "/ecommerce-platform-modern-ui.jpg",
-      tags: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      title: "Task Management App",
-      description:
-        "A collaborative task management tool with real-time updates, team workspaces, and project tracking. Features drag-and-drop interface.",
-      image: "/task-management-dashboard.png",
-      tags: ["React", "Node.js", "MongoDB", "Socket.io"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      title: "Weather Dashboard",
-      description:
-        "A beautiful weather application displaying current conditions, forecasts, and interactive maps. Integrates with multiple weather APIs.",
-      image: "/weather-dashboard-app.png",
-      tags: ["React", "API Integration", "Charts", "Tailwind CSS"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      title: "Portfolio CMS",
-      description:
-        "A headless CMS for managing portfolio content with an intuitive admin interface. Supports markdown, image uploads, and SEO optimization.",
-      image: "/cms-admin-interface.jpg",
-      tags: ["Next.js", "Supabase", "MDX", "Admin Panel"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      title: "Social Media Dashboard",
-      description:
-        "Analytics dashboard for tracking social media metrics across platforms. Features data visualization and automated reporting.",
-      image: "/analytics-dashboard-charts.png",
-      tags: ["React", "GraphQL", "Charts.js", "Express"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      title: "AI Chat Application",
-      description:
-        "Real-time chat application powered by AI with smart replies, conversation history, and multi-language support.",
-      image: "/ai-chat-interface.png",
-      tags: ["Next.js", "AI SDK", "WebSockets", "Redis"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
-  ]
+ const projects = [
+  {
+    title: "Inventory App",
+    description:
+      "The purpose of the inventory app is to help businesses easily manage and track their products. It allows users to record stock information, check available quantities, and update inventory in real time.",
+    image: ecommercePlatform,
+    tags: ["Html", "JavaScript", "Css"],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    title: "Web Design Project “ PNC-Website”",
+    description:
+      "The purpose of the PNC website is to provide an easy-to-use platform where users can quickly find clear and useful information. The website is designed to be simple and user-friendly, especially for new students and beginners.",
+    image: taskManagementDashboard,
+    tags: ["Html", "Sass", "Css"],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+  // {
+  //   title: "Weather Dashboard",
+  //   description:
+  //     "A beautiful weather application displaying current conditions, forecasts, and interactive maps. Integrates with multiple weather APIs.",
+  //   image: weatherDashboard,
+  //   tags: ["React", "API Integration", "Charts", "Tailwind CSS"],
+  //   liveUrl: "#",
+  //   githubUrl: "#",
+  // },
+  {
+    title: "Window management system tool",
+    description:
+      "The purpose of the window management system tool is to help users efficiently organize and manage multiple application windows on a computer screen.",
+    image: cmsAdminInterface,
+    tags: ["Python",],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+  // {
+  //   title: "Social Media Dashboard",
+  //   description:
+  //     "Analytics dashboard for tracking social media metrics across platforms. Features data visualization and automated reporting.",
+  //   image: analyticsDashboard,
+  //   tags: ["React", "GraphQL", "Charts.js", "Express"],
+  //   liveUrl: "#",
+  //   githubUrl: "#",
+  // },
+  {
+    title: "Farm Management System ",
+    description:
+      "The Farm Management System (FMS) is a web-based application designed to help farmers to manage their farms effectively.",
+    image: aiChatInterface,
+    tags: ["Reach.js","JavaScript", "Bootstrap 5", "MySQL", "Laravel"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Kin-Doung/VC2-Agriculture",
+  },
+];
+
 
   return (
     <section id="Projects" className="py-24 bg-card">

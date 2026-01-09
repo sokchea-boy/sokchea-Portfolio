@@ -4,27 +4,28 @@ import { GraduationCap, Calendar } from "lucide-react";
 export function Education() {
   const education = [
     {
-      degree: "Master of Science in Computer Science",
-      school: "Stanford University",
-      location: "Stanford, CA",
-      period: "2020 - 2022",
-      description: "Specialized in Machine Learning and Artificial Intelligence. GPA: 3.9/4.0",
+      degree: " Associate degree of Science in Computer Science",
+      school: "Passerelles Numériques Cambodia(PNC)",
+      location: "Phnom Penh, Sangkat Tek Thla, Khan Sen Sok",
+      period: "2024 - 2026",
+      description: "Specialized in web programming",
       achievements: [
-        "Published research on neural networks",
-        "Teaching Assistant for Advanced Algorithms",
-        "Dean's List all semesters",
+        "Farm Management System “ Virtual Company Project “ ",
+        "POS-System “ Virtual Company Project “ ",
+        "JavaScript project “ Inventory app ”",
+        "Software deployment “ Hosting WordPress ”",
+        "Algorithm Project “ window management system tool ” ",
+        "Web Design Project “ PNC-Website”"
       ],
     },
     {
-      degree: "Bachelor of Science in Software Engineering",
-      school: "University of California, Berkeley",
-      location: "Berkeley, CA",
-      period: "2016 - 2020",
-      description: "Focus on software development and web technologies. GPA: 3.8/4.0",
+      degree: "Bacc II certificate",
+      school: "Socang Konter2 high school",
+      location: "Battambang, Banan district​​",
+      period: "2020 - 2023",
+      description: "Bacc II Certificate (Science Stream)",
       achievements: [
-        "Graduated with Honors",
-        "President of Computer Science Club",
-        "Hackathon winner (3 times)",
+        "I completed my Bacc II Certificate in the Science stream.",
       ],
     },
   ];

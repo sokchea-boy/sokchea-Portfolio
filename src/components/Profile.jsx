@@ -12,7 +12,7 @@ export function Profile() {
             <div className="flex flex-col md:flex-row gap-8">
               {/* Profile Image */}
               <div className="shrink-0">
-                <div className="w-32 h-32 rounded-full bg-primary/10 overflow-hidden flex items-center justify-center">
+                <div className="w-32 h-32 rounded-full bg-primary/10 overflow-hidden flex items-center justify-center border-4 border-b-blue-400">
                   <User className="w-16 h-16 text-primary" />
                   <img
                   src={profileImg}

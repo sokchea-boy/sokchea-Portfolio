@@ -6,27 +6,27 @@ export function Skills() {
     {
       icon: Layout,
       title: "Frontend Development",
-      skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML/CSS"],
+      skills: ["React","Vue.js","Javascript", "TypeScript", "Tailwind CSS","Bootstrap 5", "HTML/CSS"],
     },
     {
       icon: Server,
       title: "Backend Development",
-      skills: ["Node.js", "Express", "REST APIs", "GraphQL", "Authentication"],
+      skills: ["Node.js", "PHP","Laravel", "REST APIs", "Authentication"],
     },
     {
       icon: Database,
       title: "Databases",
-      skills: ["PostgreSQL", "MongoDB", "Supabase", "Prisma", "Redis"],
+      skills: [ "MySQL", "SQL"],
     },
     {
       icon: Code2,
       title: "Languages",
-      skills: ["JavaScript", "TypeScript", "Python", "SQL", "Bash"],
+      skills: ["JavaScript", "TypeScript", "Python", "SQL", "PHP"],
     },
     {
       icon: Wrench,
       title: "Tools & Others",
-      skills: ["Git", "Docker", "Vercel", "CI/CD", "Testing"],
+      skills: ["Git", "Azure", "Vercel", "Netlify","Jira","Postman","AWS ( EC2 )","Microsoft Fabric", "CI/CD", "Testing"],
     },
     {
       icon: Smartphone,
