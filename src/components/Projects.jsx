@@ -3,7 +3,7 @@ import { Button } from "../components/ui/Buttons"
 import { ExternalLink, Github } from "lucide-react"
 import ecommercePlatform from "../assets/images/ecommerce-platform.jpg";
 import taskManagementDashboard from "../assets/images/task-management-dashboard.png";
-// import weatherDashboard from "../assets/images/weather-dashboard-app.png";
+import weatherDashboard from "../assets/images/weather-dashboard-app.png";
 import cmsAdminInterface from "../assets/images/cms-admin-interface.png";
 // import analyticsDashboard from "../assets/images/analytics-dashboard-charts.png";
 import aiChatInterface from "../assets/images/ai-chat-interface.png";
@@ -29,15 +29,15 @@ export function Projects() {
     liveUrl: "#",
     githubUrl: "#",
   },
-  // {
-  //   title: "Weather Dashboard",
-  //   description:
-  //     "A beautiful weather application displaying current conditions, forecasts, and interactive maps. Integrates with multiple weather APIs.",
-  //   image: weatherDashboard,
-  //   tags: ["React", "API Integration", "Charts", "Tailwind CSS"],
-  //   liveUrl: "#",
-  //   githubUrl: "#",
-  // },
+  {
+    title: "POS System",
+    description:
+      "A POS (Point of Sale) System is a software application used by businesses to process sales transactions, manage products, track inventory, and handle payments at the time a customer makes a purchase.",
+    image: weatherDashboard,
+    tags: ["PHP", "API Integration", "MySQL","MVC", "Tailwind CSS"],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
   {
     title: "Window management system tool",
     description:
@@ -61,7 +61,7 @@ export function Projects() {
     description:
       "The Farm Management System (FMS) is a web-based application designed to help farmers to manage their farms effectively.",
     image: aiChatInterface,
-    tags: ["Reach.js","JavaScript", "Bootstrap 5", "MySQL", "Laravel"],
+    tags: ["Reach.js","JavaScript","API Integration", "Bootstrap 5","OOP(Concept)", "MySQL", "Laravel"],
     liveUrl: "#",
     githubUrl: "https://github.com/Kin-Doung/VC2-Agriculture",
   },
